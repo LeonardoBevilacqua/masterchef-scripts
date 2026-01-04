@@ -5,6 +5,7 @@ pkgs.mkShell {
     buildInputs = with pkgs; [
         yt-dlp
         ffmpeg
+	mkvtoolnix-cli
     ];
     shell = "${pkgs.bashInteractive}/bin/bash";
 }
